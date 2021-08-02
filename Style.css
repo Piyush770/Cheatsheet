@@ -1,0 +1,108 @@
+
+	<link rel="stylesheet" href="prism.css">
+	<title> </title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		
+		body {
+			/*  background: #262626;*/
+		}
+		
+		/* navbar */
+		nav {
+			background: #262626;
+			height: 100px;
+		}
+
+		/* cheatsheet heading */
+		.ch {
+			color: skyblue;
+		}
+
+		/* heading */
+		h1 {
+			display: flex;
+			justify-content: center;
+			font-family: "Sofia", sans-serif;
+			font-size: 30px;
+		}
+
+		button a {
+			text-decoration: none;
+			font-size: 20px;
+			font-weight: bold;
+			color: blueviolet;
+
+		}
+
+		/* button */
+		.btn {
+			display: flex;
+			justify-content: space-around;
+			margin-top: 20px;
+
+		}
+
+		.btn2 {
+			width: 120px;
+			background: white;
+			color: blueviolet;
+			border: none;
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+		/* Html button */
+		.h {
+			width: 100px;
+			animation: animateh 0.2s linear ;
+		}
+
+
+		@keyframes animate {
+			0% {
+				transform: translateY(-10%);
+			}
+
+			50% {
+				transform: translateY(5px);
+			}
+
+			100% {
+				transform: translateY(-15%);
+			}
+		}
+
+		@keyframes animatej {
+			0% {
+				transform: translateY(-25%);
+			}
+
+			50% {
+				transform: translateY(5px);
+			}
+
+			100% {
+				transform: translateY(-29%);
+			}
+		}
+		@keyframes animateh{
+			100%{
+			transform: rotate(360deg);
+			}
+		}
+
+		/* Css  button*/
+		.c {
+			width: 120px;
+			animation: animate 1s linear infinite;
+		}
+
+		/* Javascript button */
+		.j {
+			width: 120px;
+			animation: animatej 2s linear infinite;
+		}
