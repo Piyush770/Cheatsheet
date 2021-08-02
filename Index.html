@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+	<link rel="stylesheet" href="prism.js">
+	<link rel="stylesheet" href="prism.css">
+	<title> </title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		
+		body {
+			/*  background: #262626;*/
+		}
+		
+		/* navbar */
+		nav {
+			background: #262626;
+			height: 100px;
+		}
+
+		/* cheatsheet heading */
+		.ch {
+			color: skyblue;
+		}
+
+		/* heading */
+		h1 {
+			display: flex;
+			justify-content: center;
+			font-family: "Sofia", sans-serif;
+			font-size: 30px;
+		}
+
+		button a {
+			text-decoration: none;
+			font-size: 20px;
+			font-weight: bold;
+			color: blueviolet;
+
+		}
+
+		/* button */
+		.btn {
+			display: flex;
+			justify-content: space-around;
+			margin-top: 20px;
+
+		}
+
+		.btn2 {
+			width: 120px;
+			background: white;
+			color: blueviolet;
+			border: none;
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+		/* Html button */
+		.h {
+			width: 100px;
+			animation: animateh 0.2s linear ;
+		}
+
+
+		@keyframes animate {
+			0% {
+				transform: translateY(-10%);
+			}
+
+			50% {
+				transform: translateY(5px);
+			}
+
+			100% {
+				transform: translateY(-15%);
+			}
+		}
+
+		@keyframes animatej {
+			0% {
+				transform: translateY(-25%);
+			}
+
+			50% {
+				transform: translateY(5px);
+			}
+
+			100% {
+				transform: translateY(-29%);
+			}
+		}
+		@keyframes animateh{
+			100%{
+			transform: rotate(360deg);
+			}
+		}
+
+		/* Css  button*/
+		.c {
+			width: 120px;
+			animation: animate 1s linear infinite;
+		}
+
+		/* Javascript button */
+		.j {
+			width: 120px;
+			animation: animatej 2s linear infinite;
+		}
+	</style>
+</head>
+
+<body>
+	<nav>
+		<!-- Cheatsheet heading -->
+		<h1 class="ch"> Cheatsheet</h1>
+		<!-- button --->
+		<div class="btn">
+			<button class="h"><a href="cheat1.png">Html</a></button>
+			<button class="c"><a href="text.html">Css</a></button>
+			<button class="j"><a href="#">Javascript</a></button>
+			<select class="btn2">
+				<option><a href="cheat1.png">HTML</a></option>
+				<option> CSS</option>
+				<option> Javascript</option>
+			</select>
+		</div>
+	</nav>
+	<h3>Html </h3>
+	<input type="autofocus">
+
+</body>
+
+</html>
